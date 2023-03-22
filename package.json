@@ -1,0 +1,16 @@
+{
+  "name": "nemanjazavrsni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:headed": "./node_modules/.bin/cypress open",
+    "test:headless:chrome": "./node_modules/.bin/cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.8.1"
+  }
+}
